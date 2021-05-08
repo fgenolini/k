@@ -1,0 +1,18 @@
+plugins {
+    id 'org.jetbrains.kotlin.multiplatform'
+}
+
+repositories {
+    mavenCentral()
+}
+
+kotlin {
+  //macosX64('native') { // on macOS
+  // linuxX64('native') // on Linux
+  mingwX64('native') {// on Windows
+    binaries {
+      sharedLib()
+    }
+  }
+}
+
