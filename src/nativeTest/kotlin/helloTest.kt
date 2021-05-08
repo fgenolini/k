@@ -1,10 +1,9 @@
-
-import kotlinx.cinterop.*
 import kotlin.test.*
+import kotlinx.cinterop.*
 
 class helloTest {
     @Test
-    fun testRed() {
-        assertTrue(true,"no implementation")
+    fun testGreen() {
+        assertTrue(true, "no implementation")
     }
 }
